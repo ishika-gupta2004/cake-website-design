@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+
+.logo {
+    margin-left: 50px;
+}
+
+.select-city {
+    display: flex;
+    margin-left: 30px;
+    padding: 5px;
+    align-items: center;
+}
+
+.select-city p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 19, 19)
+}
+
+.select-city i {
+    padding: 5px;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 235, 236);
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.search-menu input {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.search-menu .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    margin-right: 40px;
+    background-color: #e5e5e5;
+
+}
+
+.icon .fa-solid {
+    margin-left: 20px;
+    background-color: #e5e5e5;
+    font-size: 23px;
+}
+
+.links {
+    display: flex;
+    margin-right: 30px;
+}
+
+.menu {
+    margin-right: 40px;
+}
+
+.menu p {
+    font-family: Verdana, sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+
+.icons {
+    padding: 5px;
+    text-align: center;
+}
+
+.icons i {
+    font-size: 20px;
+}
+
+.header-2 {
+    width: 100vw;
+    height: 40px;
+    margin: 5px auto;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.header-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.header-2 ul li {
+    list-style-type: none;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 5px;
+    background-color: #e5e5e5;
+    height: 90px;
+    width: 100vw;
+}
+
+.content h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.content-2 {
+    margin-top: 20px;
+}
+
+.content-2 ul {
+    display: flex;
+    margin-left: 40px;
+}
+
+.content-2 ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.cakes {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.columm {
+    display: flex;
+    margin-left: 25px;
+}
+
+.cake-picture img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #6d6875;
+}
+
+.information .fa-regular {
+    color: rgb(234, 241, 234);
+    background-color: green;
+}
+
+.information span {
+    font-family: Verdana, sans-serif;
+}
+
+.rupees {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.rupees span {
+    color: #6d6875;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+.rupees p {
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+}
+
+
+.rupees #discount {
+    color: green;
+}
+
+
+/* -------------------------------------------------------------second box */
+
+.second-content {
+    margin: 50px;
+    font-family: Verdana, sans-serif;
+}
+
+.second-content h1 {
+    font-size: 30px;
+}
+
+.second-content2 {
+    margin: 50px;
+}
+
+.second-content2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.second-content2 ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #869192;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.second-content2 ul li:hover {
+    color: #fb6f92;
+    border: 1px solid #fb6f92;
+}
+
+.trending-cakes {
+    font-family: Verdana, sans-serif;
+    background-color: #f7ede2;
+    height: 90vh;
+    width: 100vw;
+}
+
+.trending-cakes h2 {
+    font-size: 30px;
+    margin-left: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.trending-pic {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.trending-pic img {
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.trending-pic img:hover {
+    transform: scale(1.1);
+}
+
+.trending-names {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trending-names p {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.trending-pic2 {
+    position: relative;
+    left: 0;
+    background-color: #f7ede2;
+}
+
+
+.trends {
+    background-color: #f7ede2;
+    height: 70vh;
+    width: 100vw;
+}
+
+.other-trends {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.other-trends img {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.other-trends img:hover {
+    transform: scale(1.1);
+}
+
+.btn-Va {
+    position: absolute;
+    right: 40px;
+}
+
+.btn-Va button {
+    padding: 10 90px;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    color: #fb6f92;
+    border: 1px solid #fb6f92;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.btn-Va button:hover {
+    color: #fff;
+    background-color: #fb6f92;
+}
+
+
+/* ------------------------------------theme cakes---------------------- */
+
+.theme-container {
+    height: 40vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.theme-header {
+    padding: 40px;
+}
+
+.theme-header h1 {
+    padding-top: 50px;
+    font-family: Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.theme-cakes {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 30px;
+    display: flex;
+}
+
+.theme-images {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.theme-images:hover{
+    transform: scale(1.1);
+}
+
+.theme-images img {
+    border-radius: 10px;
+}
+
+.theme-names {
+    display: flex;
+}
+
+.theme-names p {
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+/* -----------------------------something container---------- */
+
